@@ -1,0 +1,6 @@
+#!/bin/sh
+for f in ani.*
+do
+echo "******" $f >> anli.dat
+nohup $f < inatest 
+done
